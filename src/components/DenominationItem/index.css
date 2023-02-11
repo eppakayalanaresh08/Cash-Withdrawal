@@ -1,0 +1,26 @@
+.list-price {
+  width: 48%;
+  margin-bottom: 16px;
+  list-style-type: none;
+}
+
+.button-price {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+  background-color: #382f5a;
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 16px;
+  width: 100%;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #c4c4c4;
+}
+
+@media screen and (min-width: 768px) {
+  .button-price {
+    font-size: 24px;
+  }
+}
